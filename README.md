@@ -1,5 +1,4 @@
 # 🚀 FACE RECOGNITION SYSTEM - COMPLETE USAGE GUIDE
-===============================================
 
 ## 🎉 **RECENTLY UPDATED & OPTIMIZED!**
 **All performance issues fixed! Now 3-5x faster with better memory management.**
