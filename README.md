@@ -45,15 +45,25 @@ recognize_faces(confidence_threshold=75)
 └── README.md                  # This guide
 ```
 
-⚙️ SYSTEM REQUIREMENTS:
+## ⚙️ SYSTEM REQUIREMENTS:
 - Python 3.7 or higher
-- OpenCV (cv2): pip install opencv-python
-- PIL/Pillow: pip install Pillow
-- NumPy: pip install numpy
+- Jupyter Notebook or JupyterLab
+- OpenCV (cv2): `pip install opencv-python`
+- OpenCV contrib (for face recognition): `pip install opencv-contrib-python`
+- PIL/Pillow: `pip install Pillow`
+- NumPy: `pip install numpy`
+- psutil (for performance monitoring): `pip install psutil`
 - Working webcam/camera
 
-🔧 INSTALLATION:
-pip install opencv-python pillow numpy
+## 🔧 INSTALLATION:
+```bash
+# Install all required packages
+pip install opencv-python opencv-contrib-python pillow numpy psutil jupyter
+
+# Or if using conda
+conda install opencv pillow numpy psutil jupyter
+conda install -c conda-forge opencv-contrib-python
+```
 
 💡 OPTIMIZATION TIPS:
 
