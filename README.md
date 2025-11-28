@@ -32,15 +32,18 @@ optimized_train_face_recognizer()
 recognize_faces(confidence_threshold=75)
 ```
 
-📁 FILE STRUCTURE:
-├── face_recognition_system.py  # This main script
+## 📁 FILE STRUCTURE:
+```
+├── face_recognition.ipynb      # Main Jupyter notebook (UPDATED & OPTIMIZED!)
 ├── data/                       # Training images directory
-│   ├── user.1.1.jpg           # Format: user.{ID}.{number}.jpg
+│   ├── user.1.1.jpg          # Format: user.{ID}.{number}.jpg
 │   ├── user.1.2.jpg
 │   └── ...
-├── users.json                  # User configuration file
-├── face_recognizer_model.xml   # Trained model file
-└── screenshots/                # Saved screenshots directory
+├── users.json                 # User configuration file
+├── face_recognizer_model.xml  # Trained model file
+├── screenshots/               # Saved screenshots directory
+└── README.md                  # This guide
+```
 
 ⚙️ SYSTEM REQUIREMENTS:
 - Python 3.7 or higher
